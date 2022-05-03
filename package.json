@@ -11,6 +11,7 @@
     "vue": "^3.2.25"
   },
   "devDependencies": {
+    "@types/node": "^17.0.31",
     "@vitejs/plugin-vue": "^2.3.1",
     "autoprefixer": "^10.4.7",
     "postcss": "^8.4.13",
