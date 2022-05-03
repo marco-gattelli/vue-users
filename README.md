@@ -9,6 +9,8 @@
 7) `VueUse` that provides a collection of essential Vue Composition Utilities.
 8) `Tailwind` as the utility-first CSS framework. 
 
+As I had to start from the scratch this project I decided to use the latest Vue features, so I used the Composition API with TypeScript. Anyhow, I can easily transform all the components to run with the Option API.  
+
 ## How to run the project
 
 First of all you should download the code and be sure to have installed the right version of node in your machine, my recommendation is the v17.3.0 the one I used to develop the project.
