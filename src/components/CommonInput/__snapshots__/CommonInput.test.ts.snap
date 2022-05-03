@@ -1,0 +1,20 @@
+// Vitest Snapshot v1
+
+exports[`CommonInput > should render the input disabled 1`] = `
+<input
+  class="rounded border px-2 py-1 w-80 bg-gray-100 cursor-not-allowed"
+  data-testid="foo"
+  disabled=""
+  placeholder="bar"
+  type="text"
+/>
+`;
+
+exports[`CommonInput > should render without crash 1`] = `
+<input
+  class="rounded border px-2 py-1 w-80"
+  data-testid="baz"
+  placeholder="bar"
+  type="text"
+/>
+`;

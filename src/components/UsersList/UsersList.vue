@@ -20,8 +20,10 @@ const emits = defineEmits<{ (e: "loadMore"): void }>();
 const target = ref(null);
 
 useIntersectionObserver(target, ([{ isIntersecting }]) => {
-  if (isIntersecting) emits("loadMore");
+  if (isIntersecting) onIntersecting();
 });
-</script>
 
-<style scoped></style>
+function onIntersecting() {
+  emits("loadMore");
+}
+</script>

@@ -1,0 +1,1001 @@
+// Vitest Snapshot v1
+
+exports[`UsersList > should render without crash 1`] = `
+<ul
+  class="w-full"
+>
+  
+  <li
+    class="p-4 rounded border hover:bg-gray-50 transition-colors duration-500 my-4 w-full"
+  >
+    <div
+      class="flex justify-between"
+    >
+      <div
+        class="flex flex-col gap-2"
+      >
+        <span>
+          Name: foobar0
+        </span>
+        <span>
+          Email: foo0
+        </span>
+        <span>
+          Phone: foobaz0
+        </span>
+      </div>
+      <div
+        class="flex flex-col items-end gap-2"
+      >
+        <span>
+          Company: baz0
+        </span>
+        <span
+          class="italic"
+        >
+          foo0
+        </span>
+      </div>
+    </div>
+  </li>
+  <li
+    class="p-4 rounded border hover:bg-gray-50 transition-colors duration-500 my-4 w-full"
+  >
+    <div
+      class="flex justify-between"
+    >
+      <div
+        class="flex flex-col gap-2"
+      >
+        <span>
+          Name: foobar1
+        </span>
+        <span>
+          Email: foo1
+        </span>
+        <span>
+          Phone: foobaz1
+        </span>
+      </div>
+      <div
+        class="flex flex-col items-end gap-2"
+      >
+        <span>
+          Company: baz1
+        </span>
+        <span
+          class="italic"
+        >
+          foo1
+        </span>
+      </div>
+    </div>
+  </li>
+  <li
+    class="p-4 rounded border hover:bg-gray-50 transition-colors duration-500 my-4 w-full"
+  >
+    <div
+      class="flex justify-between"
+    >
+      <div
+        class="flex flex-col gap-2"
+      >
+        <span>
+          Name: foobar2
+        </span>
+        <span>
+          Email: foo2
+        </span>
+        <span>
+          Phone: foobaz2
+        </span>
+      </div>
+      <div
+        class="flex flex-col items-end gap-2"
+      >
+        <span>
+          Company: baz2
+        </span>
+        <span
+          class="italic"
+        >
+          foo2
+        </span>
+      </div>
+    </div>
+  </li>
+  <li
+    class="p-4 rounded border hover:bg-gray-50 transition-colors duration-500 my-4 w-full"
+  >
+    <div
+      class="flex justify-between"
+    >
+      <div
+        class="flex flex-col gap-2"
+      >
+        <span>
+          Name: foobar3
+        </span>
+        <span>
+          Email: foo3
+        </span>
+        <span>
+          Phone: foobaz3
+        </span>
+      </div>
+      <div
+        class="flex flex-col items-end gap-2"
+      >
+        <span>
+          Company: baz3
+        </span>
+        <span
+          class="italic"
+        >
+          foo3
+        </span>
+      </div>
+    </div>
+  </li>
+  <li
+    class="p-4 rounded border hover:bg-gray-50 transition-colors duration-500 my-4 w-full"
+  >
+    <div
+      class="flex justify-between"
+    >
+      <div
+        class="flex flex-col gap-2"
+      >
+        <span>
+          Name: foobar4
+        </span>
+        <span>
+          Email: foo4
+        </span>
+        <span>
+          Phone: foobaz4
+        </span>
+      </div>
+      <div
+        class="flex flex-col items-end gap-2"
+      >
+        <span>
+          Company: baz4
+        </span>
+        <span
+          class="italic"
+        >
+          foo4
+        </span>
+      </div>
+    </div>
+  </li>
+  <li
+    class="p-4 rounded border hover:bg-gray-50 transition-colors duration-500 my-4 w-full"
+  >
+    <div
+      class="flex justify-between"
+    >
+      <div
+        class="flex flex-col gap-2"
+      >
+        <span>
+          Name: foobar5
+        </span>
+        <span>
+          Email: foo5
+        </span>
+        <span>
+          Phone: foobaz5
+        </span>
+      </div>
+      <div
+        class="flex flex-col items-end gap-2"
+      >
+        <span>
+          Company: baz5
+        </span>
+        <span
+          class="italic"
+        >
+          foo5
+        </span>
+      </div>
+    </div>
+  </li>
+  <li
+    class="p-4 rounded border hover:bg-gray-50 transition-colors duration-500 my-4 w-full"
+  >
+    <div
+      class="flex justify-between"
+    >
+      <div
+        class="flex flex-col gap-2"
+      >
+        <span>
+          Name: foobar6
+        </span>
+        <span>
+          Email: foo6
+        </span>
+        <span>
+          Phone: foobaz6
+        </span>
+      </div>
+      <div
+        class="flex flex-col items-end gap-2"
+      >
+        <span>
+          Company: baz6
+        </span>
+        <span
+          class="italic"
+        >
+          foo6
+        </span>
+      </div>
+    </div>
+  </li>
+  <li
+    class="p-4 rounded border hover:bg-gray-50 transition-colors duration-500 my-4 w-full"
+  >
+    <div
+      class="flex justify-between"
+    >
+      <div
+        class="flex flex-col gap-2"
+      >
+        <span>
+          Name: foobar7
+        </span>
+        <span>
+          Email: foo7
+        </span>
+        <span>
+          Phone: foobaz7
+        </span>
+      </div>
+      <div
+        class="flex flex-col items-end gap-2"
+      >
+        <span>
+          Company: baz7
+        </span>
+        <span
+          class="italic"
+        >
+          foo7
+        </span>
+      </div>
+    </div>
+  </li>
+  <li
+    class="p-4 rounded border hover:bg-gray-50 transition-colors duration-500 my-4 w-full"
+  >
+    <div
+      class="flex justify-between"
+    >
+      <div
+        class="flex flex-col gap-2"
+      >
+        <span>
+          Name: foobar8
+        </span>
+        <span>
+          Email: foo8
+        </span>
+        <span>
+          Phone: foobaz8
+        </span>
+      </div>
+      <div
+        class="flex flex-col items-end gap-2"
+      >
+        <span>
+          Company: baz8
+        </span>
+        <span
+          class="italic"
+        >
+          foo8
+        </span>
+      </div>
+    </div>
+  </li>
+  <li
+    class="p-4 rounded border hover:bg-gray-50 transition-colors duration-500 my-4 w-full"
+  >
+    <div
+      class="flex justify-between"
+    >
+      <div
+        class="flex flex-col gap-2"
+      >
+        <span>
+          Name: foobar9
+        </span>
+        <span>
+          Email: foo9
+        </span>
+        <span>
+          Phone: foobaz9
+        </span>
+      </div>
+      <div
+        class="flex flex-col items-end gap-2"
+      >
+        <span>
+          Company: baz9
+        </span>
+        <span
+          class="italic"
+        >
+          foo9
+        </span>
+      </div>
+    </div>
+  </li>
+  <li
+    class="p-4 rounded border hover:bg-gray-50 transition-colors duration-500 my-4 w-full"
+  >
+    <div
+      class="flex justify-between"
+    >
+      <div
+        class="flex flex-col gap-2"
+      >
+        <span>
+          Name: foobar10
+        </span>
+        <span>
+          Email: foo10
+        </span>
+        <span>
+          Phone: foobaz10
+        </span>
+      </div>
+      <div
+        class="flex flex-col items-end gap-2"
+      >
+        <span>
+          Company: baz10
+        </span>
+        <span
+          class="italic"
+        >
+          foo10
+        </span>
+      </div>
+    </div>
+  </li>
+  <li
+    class="p-4 rounded border hover:bg-gray-50 transition-colors duration-500 my-4 w-full"
+  >
+    <div
+      class="flex justify-between"
+    >
+      <div
+        class="flex flex-col gap-2"
+      >
+        <span>
+          Name: foobar11
+        </span>
+        <span>
+          Email: foo11
+        </span>
+        <span>
+          Phone: foobaz11
+        </span>
+      </div>
+      <div
+        class="flex flex-col items-end gap-2"
+      >
+        <span>
+          Company: baz11
+        </span>
+        <span
+          class="italic"
+        >
+          foo11
+        </span>
+      </div>
+    </div>
+  </li>
+  <li
+    class="p-4 rounded border hover:bg-gray-50 transition-colors duration-500 my-4 w-full"
+  >
+    <div
+      class="flex justify-between"
+    >
+      <div
+        class="flex flex-col gap-2"
+      >
+        <span>
+          Name: foobar12
+        </span>
+        <span>
+          Email: foo12
+        </span>
+        <span>
+          Phone: foobaz12
+        </span>
+      </div>
+      <div
+        class="flex flex-col items-end gap-2"
+      >
+        <span>
+          Company: baz12
+        </span>
+        <span
+          class="italic"
+        >
+          foo12
+        </span>
+      </div>
+    </div>
+  </li>
+  <li
+    class="p-4 rounded border hover:bg-gray-50 transition-colors duration-500 my-4 w-full"
+  >
+    <div
+      class="flex justify-between"
+    >
+      <div
+        class="flex flex-col gap-2"
+      >
+        <span>
+          Name: foobar13
+        </span>
+        <span>
+          Email: foo13
+        </span>
+        <span>
+          Phone: foobaz13
+        </span>
+      </div>
+      <div
+        class="flex flex-col items-end gap-2"
+      >
+        <span>
+          Company: baz13
+        </span>
+        <span
+          class="italic"
+        >
+          foo13
+        </span>
+      </div>
+    </div>
+  </li>
+  <li
+    class="p-4 rounded border hover:bg-gray-50 transition-colors duration-500 my-4 w-full"
+  >
+    <div
+      class="flex justify-between"
+    >
+      <div
+        class="flex flex-col gap-2"
+      >
+        <span>
+          Name: foobar14
+        </span>
+        <span>
+          Email: foo14
+        </span>
+        <span>
+          Phone: foobaz14
+        </span>
+      </div>
+      <div
+        class="flex flex-col items-end gap-2"
+      >
+        <span>
+          Company: baz14
+        </span>
+        <span
+          class="italic"
+        >
+          foo14
+        </span>
+      </div>
+    </div>
+  </li>
+  <li
+    class="p-4 rounded border hover:bg-gray-50 transition-colors duration-500 my-4 w-full"
+  >
+    <div
+      class="flex justify-between"
+    >
+      <div
+        class="flex flex-col gap-2"
+      >
+        <span>
+          Name: foobar15
+        </span>
+        <span>
+          Email: foo15
+        </span>
+        <span>
+          Phone: foobaz15
+        </span>
+      </div>
+      <div
+        class="flex flex-col items-end gap-2"
+      >
+        <span>
+          Company: baz15
+        </span>
+        <span
+          class="italic"
+        >
+          foo15
+        </span>
+      </div>
+    </div>
+  </li>
+  <li
+    class="p-4 rounded border hover:bg-gray-50 transition-colors duration-500 my-4 w-full"
+  >
+    <div
+      class="flex justify-between"
+    >
+      <div
+        class="flex flex-col gap-2"
+      >
+        <span>
+          Name: foobar16
+        </span>
+        <span>
+          Email: foo16
+        </span>
+        <span>
+          Phone: foobaz16
+        </span>
+      </div>
+      <div
+        class="flex flex-col items-end gap-2"
+      >
+        <span>
+          Company: baz16
+        </span>
+        <span
+          class="italic"
+        >
+          foo16
+        </span>
+      </div>
+    </div>
+  </li>
+  <li
+    class="p-4 rounded border hover:bg-gray-50 transition-colors duration-500 my-4 w-full"
+  >
+    <div
+      class="flex justify-between"
+    >
+      <div
+        class="flex flex-col gap-2"
+      >
+        <span>
+          Name: foobar17
+        </span>
+        <span>
+          Email: foo17
+        </span>
+        <span>
+          Phone: foobaz17
+        </span>
+      </div>
+      <div
+        class="flex flex-col items-end gap-2"
+      >
+        <span>
+          Company: baz17
+        </span>
+        <span
+          class="italic"
+        >
+          foo17
+        </span>
+      </div>
+    </div>
+  </li>
+  <li
+    class="p-4 rounded border hover:bg-gray-50 transition-colors duration-500 my-4 w-full"
+  >
+    <div
+      class="flex justify-between"
+    >
+      <div
+        class="flex flex-col gap-2"
+      >
+        <span>
+          Name: foobar18
+        </span>
+        <span>
+          Email: foo18
+        </span>
+        <span>
+          Phone: foobaz18
+        </span>
+      </div>
+      <div
+        class="flex flex-col items-end gap-2"
+      >
+        <span>
+          Company: baz18
+        </span>
+        <span
+          class="italic"
+        >
+          foo18
+        </span>
+      </div>
+    </div>
+  </li>
+  <li
+    class="p-4 rounded border hover:bg-gray-50 transition-colors duration-500 my-4 w-full"
+  >
+    <div
+      class="flex justify-between"
+    >
+      <div
+        class="flex flex-col gap-2"
+      >
+        <span>
+          Name: foobar19
+        </span>
+        <span>
+          Email: foo19
+        </span>
+        <span>
+          Phone: foobaz19
+        </span>
+      </div>
+      <div
+        class="flex flex-col items-end gap-2"
+      >
+        <span>
+          Company: baz19
+        </span>
+        <span
+          class="italic"
+        >
+          foo19
+        </span>
+      </div>
+    </div>
+  </li>
+  <li
+    class="p-4 rounded border hover:bg-gray-50 transition-colors duration-500 my-4 w-full"
+  >
+    <div
+      class="flex justify-between"
+    >
+      <div
+        class="flex flex-col gap-2"
+      >
+        <span>
+          Name: foobar20
+        </span>
+        <span>
+          Email: foo20
+        </span>
+        <span>
+          Phone: foobaz20
+        </span>
+      </div>
+      <div
+        class="flex flex-col items-end gap-2"
+      >
+        <span>
+          Company: baz20
+        </span>
+        <span
+          class="italic"
+        >
+          foo20
+        </span>
+      </div>
+    </div>
+  </li>
+  <li
+    class="p-4 rounded border hover:bg-gray-50 transition-colors duration-500 my-4 w-full"
+  >
+    <div
+      class="flex justify-between"
+    >
+      <div
+        class="flex flex-col gap-2"
+      >
+        <span>
+          Name: foobar21
+        </span>
+        <span>
+          Email: foo21
+        </span>
+        <span>
+          Phone: foobaz21
+        </span>
+      </div>
+      <div
+        class="flex flex-col items-end gap-2"
+      >
+        <span>
+          Company: baz21
+        </span>
+        <span
+          class="italic"
+        >
+          foo21
+        </span>
+      </div>
+    </div>
+  </li>
+  <li
+    class="p-4 rounded border hover:bg-gray-50 transition-colors duration-500 my-4 w-full"
+  >
+    <div
+      class="flex justify-between"
+    >
+      <div
+        class="flex flex-col gap-2"
+      >
+        <span>
+          Name: foobar22
+        </span>
+        <span>
+          Email: foo22
+        </span>
+        <span>
+          Phone: foobaz22
+        </span>
+      </div>
+      <div
+        class="flex flex-col items-end gap-2"
+      >
+        <span>
+          Company: baz22
+        </span>
+        <span
+          class="italic"
+        >
+          foo22
+        </span>
+      </div>
+    </div>
+  </li>
+  <li
+    class="p-4 rounded border hover:bg-gray-50 transition-colors duration-500 my-4 w-full"
+  >
+    <div
+      class="flex justify-between"
+    >
+      <div
+        class="flex flex-col gap-2"
+      >
+        <span>
+          Name: foobar23
+        </span>
+        <span>
+          Email: foo23
+        </span>
+        <span>
+          Phone: foobaz23
+        </span>
+      </div>
+      <div
+        class="flex flex-col items-end gap-2"
+      >
+        <span>
+          Company: baz23
+        </span>
+        <span
+          class="italic"
+        >
+          foo23
+        </span>
+      </div>
+    </div>
+  </li>
+  <li
+    class="p-4 rounded border hover:bg-gray-50 transition-colors duration-500 my-4 w-full"
+  >
+    <div
+      class="flex justify-between"
+    >
+      <div
+        class="flex flex-col gap-2"
+      >
+        <span>
+          Name: foobar24
+        </span>
+        <span>
+          Email: foo24
+        </span>
+        <span>
+          Phone: foobaz24
+        </span>
+      </div>
+      <div
+        class="flex flex-col items-end gap-2"
+      >
+        <span>
+          Company: baz24
+        </span>
+        <span
+          class="italic"
+        >
+          foo24
+        </span>
+      </div>
+    </div>
+  </li>
+  <li
+    class="p-4 rounded border hover:bg-gray-50 transition-colors duration-500 my-4 w-full"
+  >
+    <div
+      class="flex justify-between"
+    >
+      <div
+        class="flex flex-col gap-2"
+      >
+        <span>
+          Name: foobar25
+        </span>
+        <span>
+          Email: foo25
+        </span>
+        <span>
+          Phone: foobaz25
+        </span>
+      </div>
+      <div
+        class="flex flex-col items-end gap-2"
+      >
+        <span>
+          Company: baz25
+        </span>
+        <span
+          class="italic"
+        >
+          foo25
+        </span>
+      </div>
+    </div>
+  </li>
+  <li
+    class="p-4 rounded border hover:bg-gray-50 transition-colors duration-500 my-4 w-full"
+  >
+    <div
+      class="flex justify-between"
+    >
+      <div
+        class="flex flex-col gap-2"
+      >
+        <span>
+          Name: foobar26
+        </span>
+        <span>
+          Email: foo26
+        </span>
+        <span>
+          Phone: foobaz26
+        </span>
+      </div>
+      <div
+        class="flex flex-col items-end gap-2"
+      >
+        <span>
+          Company: baz26
+        </span>
+        <span
+          class="italic"
+        >
+          foo26
+        </span>
+      </div>
+    </div>
+  </li>
+  <li
+    class="p-4 rounded border hover:bg-gray-50 transition-colors duration-500 my-4 w-full"
+  >
+    <div
+      class="flex justify-between"
+    >
+      <div
+        class="flex flex-col gap-2"
+      >
+        <span>
+          Name: foobar27
+        </span>
+        <span>
+          Email: foo27
+        </span>
+        <span>
+          Phone: foobaz27
+        </span>
+      </div>
+      <div
+        class="flex flex-col items-end gap-2"
+      >
+        <span>
+          Company: baz27
+        </span>
+        <span
+          class="italic"
+        >
+          foo27
+        </span>
+      </div>
+    </div>
+  </li>
+  <li
+    class="p-4 rounded border hover:bg-gray-50 transition-colors duration-500 my-4 w-full"
+  >
+    <div
+      class="flex justify-between"
+    >
+      <div
+        class="flex flex-col gap-2"
+      >
+        <span>
+          Name: foobar28
+        </span>
+        <span>
+          Email: foo28
+        </span>
+        <span>
+          Phone: foobaz28
+        </span>
+      </div>
+      <div
+        class="flex flex-col items-end gap-2"
+      >
+        <span>
+          Company: baz28
+        </span>
+        <span
+          class="italic"
+        >
+          foo28
+        </span>
+      </div>
+    </div>
+  </li>
+  <li
+    class="p-4 rounded border hover:bg-gray-50 transition-colors duration-500 my-4 w-full"
+  >
+    <div
+      class="flex justify-between"
+    >
+      <div
+        class="flex flex-col gap-2"
+      >
+        <span>
+          Name: foobar29
+        </span>
+        <span>
+          Email: foo29
+        </span>
+        <span>
+          Phone: foobaz29
+        </span>
+      </div>
+      <div
+        class="flex flex-col items-end gap-2"
+      >
+        <span>
+          Company: baz29
+        </span>
+        <span
+          class="italic"
+        >
+          foo29
+        </span>
+      </div>
+    </div>
+  </li>
+  
+  <li />
+</ul>
+`;

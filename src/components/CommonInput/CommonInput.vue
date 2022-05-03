@@ -8,6 +8,7 @@
     :disabled="disabled"
     :placeholder="placeholder"
     :value="modelValue"
+    :data-testid="dataTestId"
     @input="handleInputChange"
   />
 </template>
@@ -16,9 +17,10 @@
 interface Props {
   modelValue: string;
   placeholder: string;
+  dataTestId?: string;
   disabled?: boolean;
 }
-const { modelValue, placeholder, disabled } = defineProps<Props>();
+const { modelValue, placeholder, disabled, dataTestId } = defineProps<Props>();
 const emits = defineEmits<{
   (e: "update:modelValue", modelValue: string): void;
 }>();
