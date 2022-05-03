@@ -1,7 +1,7 @@
 <script setup lang="ts">
 import CommonInput from "@/components/CommonInput/CommonInput.vue";
 import UsersList from "@/components/UsersList/UsersList.vue";
-import NoData from "@/components/NoData/NoData.vue";
+import InfoMessage from "@/components/InfoMessage/InfoMessage.vue";
 import UsersSkeleton from "@/components/UsersSkeleton/UsersSkeleton.vue";
 import { computed, Ref, ref } from "vue";
 import { watchDebounced, useCounter } from "@vueuse/core";
@@ -35,25 +35,20 @@ const paginatedUsers = computed(() => users.value.slice(0, page.value * 10));
       />
     </div>
     <div class="flex-grow">
-      <no-data
+      <info-message
         v-if="hasError"
         class="mt-4"
         message="Ups some error occurred. Please try again"
-        variant="warning"
+        variant="error"
       />
-      <UsersSkeleton v-else-if="isLoading" />
-      <no-data
+      <users-skeleton v-else-if="isLoading" />
+      <info-message
         v-else-if="paginatedUsers.length === 0"
         class="mt-4"
         message="Ups no users found for your query, please change it."
         variant="warning"
       />
-      <users-list
-        v-else
-        :users="paginatedUsers"
-        :search-query="searchModel"
-        @load-more="inc"
-      />
+      <users-list v-else :users="paginatedUsers" @load-more="inc" />
     </div>
   </div>
 </template>
