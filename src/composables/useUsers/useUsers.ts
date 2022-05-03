@@ -1,4 +1,4 @@
-import { reactive, Ref, ref } from "vue";
+import { Ref, ref } from "vue";
 import { User } from "@/types/user";
 import { apolloClient } from "@/api/client";
 import { query } from "@/api/users/users";
@@ -13,11 +13,15 @@ export function useUsers() {
     isLoading.value = true;
     try {
       users.value = [];
-      const { data } = await apolloClient.query({
+      const { data, error } = await apolloClient.query({
         query,
         variables: { q: filterWord },
       });
-      users.value = [...data.users.data];
+      if (!error) {
+        users.value = [...data.users.data];
+      } else {
+        hasError.value = true;
+      }
     } catch (e) {
       hasError.value = true;
     }
