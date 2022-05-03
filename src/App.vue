@@ -13,7 +13,6 @@ const searchModel: Ref<string> = ref("");
 
 const { count: page, inc, reset } = useCounter(1);
 
-// TODO: Describe why we use this function
 watchDebounced(
   searchModel,
   (newValue) => {

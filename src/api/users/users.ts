@@ -17,8 +17,7 @@ export const query = gql`
   }
 `;
 
-// TODO: explain the use of this query
-export const paginatedQuery = gql`
+/*export const paginatedQuery = gql`
   query Users($q: String, $page: Int) {
     users(options: { search: { q: $q }, paginate: { page: $page } }) {
       data {
@@ -33,4 +32,4 @@ export const paginatedQuery = gql`
       }
     }
   }
-`;
+`;*/
