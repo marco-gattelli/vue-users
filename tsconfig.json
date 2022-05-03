@@ -16,6 +16,9 @@
     "paths": {
       "@/components/*": ["./components/*"],
       "@/assets/*": ["./assets/*"],
+      "@/composables/*": ["./composables/*"],
+      "@/types/*": ["./types/*"],
+      "@/api/*": ["./api/*"],
     }
   },
   "include": [
