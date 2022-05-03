@@ -1,0 +1,17 @@
+// Vitest Snapshot v1
+
+exports[`InfoMessage > should render error message 1`] = `
+<div
+  class="rounded p-4 border flex items-center justify-center bg-red-300"
+>
+  baz
+</div>
+`;
+
+exports[`InfoMessage > should render without crash 1`] = `
+<div
+  class="rounded p-4 border flex items-center justify-center bg-orange-300"
+>
+  bar
+</div>
+`;
