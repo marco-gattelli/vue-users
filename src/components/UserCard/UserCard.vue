@@ -1,6 +1,7 @@
 <template>
   <li
     class="p-4 rounded border hover:bg-gray-50 transition-colors duration-500 my-4 w-full"
+    data-testid="user-card"
   >
     <div class="flex justify-between">
       <div class="flex flex-col gap-2">

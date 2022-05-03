@@ -5,6 +5,7 @@
       'bg-orange-300': variant === 'warning',
       'bg-red-300': variant === 'error',
     }"
+    :data-testid="dataTestId"
   >
     {{ message }}
   </div>
@@ -13,7 +14,8 @@
 <script setup lang="ts">
 type Props = {
   message: string;
+  dataTestId: string;
   variant: "warning" | "error";
 };
-const { message, variant } = defineProps<Props>();
+const { message, variant, dataTestId } = defineProps<Props>();
 </script>

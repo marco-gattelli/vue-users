@@ -1,5 +1,5 @@
 <template>
-  <ul class="w-full">
+  <ul class="w-full" data-testid="users-skeleton">
     <li
       v-for="user in 4"
       :key="user"

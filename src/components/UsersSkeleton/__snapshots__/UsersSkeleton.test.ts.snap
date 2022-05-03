@@ -3,6 +3,7 @@
 exports[`UsersSkeleton > should render without crash 1`] = `
 <ul
   class="w-full"
+  data-testid="users-skeleton"
 >
   
   <li

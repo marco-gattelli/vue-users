@@ -32,6 +32,7 @@ const paginatedUsers = computed(() => users.value.slice(0, page.value * 10));
       <common-input
         v-model="searchModel"
         placeholder="Please insert something..."
+        dataTestId="filter-input"
       />
     </div>
     <div class="flex-grow">
@@ -40,6 +41,7 @@ const paginatedUsers = computed(() => users.value.slice(0, page.value * 10));
         class="mt-4"
         message="Ups some error occurred. Please try again"
         variant="error"
+        dataTestId="error"
       />
       <users-skeleton v-else-if="isLoading" />
       <info-message
@@ -47,6 +49,7 @@ const paginatedUsers = computed(() => users.value.slice(0, page.value * 10));
         class="mt-4"
         message="Ups no users found for your query, please change it."
         variant="warning"
+        dataTestId="no-users"
       />
       <users-list v-else :users="paginatedUsers" @load-more="inc" />
     </div>
